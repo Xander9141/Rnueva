@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  background: #f2f2f2;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+.btn-register {
+  background-color: #55c57a;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn {
+  background-color: #814e9b;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+
+.pasos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pasos div {
+  margin: 10px;
+  text-align: center;
+}
+
+.categorias, .productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 140px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.precio {
+  font-weight: bold;
+  color: #814e9b;
+}
+
+.filtros {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  background: #f2f2f2;
+  padding: 1rem;
+  margin-top: 30px;
+  }
