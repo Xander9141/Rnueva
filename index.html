@@ -1,83 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>RNUEVA Sustentable</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <h1>RNUEVA</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Cómo funciona</a></li>
-        <li><a href="#">Destacados</a></li>
-        <li><a href="#">Vamos a comprar</a></li>
-        <li><button class="btn-register">Regístrate</button></li>
-      </ul>
-    </nav>
+    <div class="logo-nav">
+      <img src="assets/logo.png" alt="RNUEVA Logo" class="logo">
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Cómo funciona</a></li>
+          <li><a href="#">Destacados</a></li>
+          <li><a href="#">Comprar</a></li>
+          <li><button class="btn-register">Regístrate</button></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
+  <!-- Hero principal -->
+  <section class="hero">
+    <div class="hero-texto">
+      <h1>¡Pronto llega RNUEVA!</h1>
+      <p>Tu nueva forma de comprar e intercambiar moda sustentable. Estamos trabajando para ti.</p>
+      <button class="btn">Entérate primero</button>
+    </div>
+    <img src="assets/hero-bg.jpg" alt="Moda Sustentable" class="hero-img">
+  </section>
+
+  <!-- Cómo funciona -->
   <section class="como-funciona">
     <h2>¿Cómo funciona?</h2>
     <div class="funciona-contenido">
       <button class="btn">Compra sustentable</button>
-      <button class="btn">Intercambio de ropa</button>
+      <button class="btn">Intercambia ropa</button>
       <div class="pasos">
         <div><img src="https://img.icons8.com/ios/50/t-shirt--v1.png"/><p>Sube tu prenda</p></div>
-        <div><img src="https://img.icons8.com/ios/50/gift--v1.png"/><p>Recibes puntos</p></div>
-        <div><img src="https://img.icons8.com/ios/50/shopping-bag--v1.png"/><p>Canjes y compras</p></div>
+        <div><img src="https://img.icons8.com/ios/50/gift--v1.png"/><p>Recibe puntos</p></div>
+        <div><img src="https://img.icons8.com/ios/50/shopping-bag--v1.png"/><p>Canjea productos</p></div>
       </div>
     </div>
   </section>
 
+  <!-- Destacados -->
   <section class="destacados">
     <h2>Destacados</h2>
     <div class="categorias">
-      <div><img src="https://via.placeholder.com/100x130" alt="Jeans"><p>Jeans</p></div>
-      <div><img src="https://via.placeholder.com/100x130" alt="Vestidos"><p>Vestidos</p></div>
-      <div><img src="https://via.placeholder.com/100x130" alt="Accesorios"><p>Accesorios</p></div>
-      <div><img src="https://via.placeholder.com/100x130" alt="Zapatos"><p>Zapatos</p></div>
+      <div><img src="assets/jeans.jpg" alt="Jeans"><p>Jeans</p></div>
+      <div><img src="assets/vestidos.jpg" alt="Vestidos"><p>Vestidos</p></div>
+      <div><img src="assets/accesorios.jpg" alt="Accesorios"><p>Accesorios</p></div>
+      <div><img src="assets/zapatos.jpg" alt="Zapatos"><p>Zapatos</p></div>
     </div>
   </section>
 
-  <section class="comprar">
-    <h2>Vamos a comprar</h2>
-    <div class="filtros">
-      <select><option>Talla</option></select>
-      <select><option>Nuevo</option></select>
-      <select><option>Estado</option></select>
-      <select><option>Categoría</option></select>
-    </div>
-    <div class="productos">
-      <div class="producto">
-        <img src="https://via.placeholder.com/100x150" alt="Jeans 1">
-        <h4>Opposite</h4>
-        <p>Jeans Wide Leg Lavados</p>
-        <p class="precio">$5.000</p>
+  <!-- Próximamente -->
+  <section class="cards-futuro">
+    <h2>¡Lo que se viene!</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="assets/card1.png" alt="App móvil">
+        <h3>App móvil</h3>
+        <p>Compra e intercambia desde tu celular fácilmente.</p>
       </div>
-      <div class="producto">
-        <img src="https://via.placeholder.com/100x150" alt="Jeans 2">
-        <h4>Opposite</h4>
-        <p>Jeans Wide Leg Lavados</p>
-        <p class="precio">$6.000</p>
+      <div class="card">
+        <img src="assets/card2.png" alt="Eventos">
+        <h3>Eventos de trueque</h3>
+        <p>Participa en ferias sustentables en tu ciudad.</p>
       </div>
-      <div class="producto">
-        <img src="https://via.placeholder.com/100x150" alt="Jeans 3">
-        <h4>Opposite</h4>
-        <p>Jeans Flare Coated</p>
-        <p class="precio">$5.000</p>
+      <div class="card">
+        <img src="assets/card3.png" alt="Tienda física">
+        <h3>Tienda física</h3>
+        <p>Pronto abriremos nuestra primera tienda piloto.</p>
       </div>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
-    <p>RNUEVA © 2025 - Todos los derechos reservados.</p>
+    <p>RNUEVA © 2025 - Moda sustentable con impacto social y ambiental</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
-                                                                             </html>
+</html>
